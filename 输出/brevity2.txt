@@ -40,6 +40,7 @@
 然后	nf
 那个	ni
 那么	nr
+多少	nv
 那些	nz
 只是	ob
 因为	qk

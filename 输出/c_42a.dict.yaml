@@ -158,7 +158,7 @@ columns:
 年	~ihn
 口	~oku
 王	~ewg
-怎	~scz
+怎	scz
 边	~;zb
 次	~kic
 全	~eqn
@@ -724,7 +724,7 @@ columns:
 弹	gky
 救	kuw
 银	~lry
-统	sca
+统	~sca
 否	gof
 索	~ynv
 抓	jmz
@@ -810,7 +810,7 @@ columns:
 翻	rbj
 察	aap
 独	~dcd
-幸	fkf
+幸	fky
 舞	iny
 称	~t;v
 玄	sxn
@@ -1947,7 +1947,7 @@ columns:
 肥	ncf
 穆	tbv
 挖	jaz
-阔	~nvs
+阔	nvs
 跌	zdd
 丑	bcu
 赚	mkm
@@ -3222,7 +3222,7 @@ columns:
 奄	dbl
 诵	usm
 腑	nrj
-悻	yff
+悻	yfy
 憎	ykb
 嗨	oib
 敷	~m;w
@@ -5435,7 +5435,7 @@ columns:
 疴	rjk
 踅	jrz
 棼	gaf
-睾	rqf
+睾	rqy
 鹳	hqs
 疡	rjd
 锍	lcm
@@ -10063,6 +10063,7 @@ columns:
 　	~fka
 　	~fkd
 　	~fke
+　	~fkf
 　	~fkg
 　	~fkh
 　	~fki
@@ -10079,7 +10080,6 @@ columns:
 　	~fkv
 　	~fkw
 　	~fkx
-　	~fky
 　	~fkz
 　	~fk;
 　	~fla
@@ -20947,6 +20947,7 @@ columns:
 　	~yfb
 　	~yfd
 　	~yfe
+　	~yff
 　	~yfg
 　	~yfh
 　	~yfi
@@ -20960,7 +20961,6 @@ columns:
 　	~yft
 　	~yfu
 　	~yfx
-　	~yfy
 　	~yfz
 　	~yf;
 　	~yga
@@ -22744,3 +22744,4 @@ columns:
 　	~;/;
 仪	iyi
 识	usi
+誓	jsi

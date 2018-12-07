@@ -443,7 +443,7 @@
 写	ns
 同	nt
 凡	nu
-阔	nv
+多少	nv
 脑	nw
 刚	nx
 外	ny
@@ -574,7 +574,7 @@
 结	s/
 给	sa
 细	sb
-怎	sc
+统	sc
 忽	sd
 绿	se
 绪	sf
