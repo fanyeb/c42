@@ -4,7 +4,7 @@
 schema:
   schema_id: c_42
   name: "C四二"
-  version: "2.1"
+  version: "2.4"
   author:
     - Cicin（15.02.05版）
     - 蓝落萧改编
@@ -159,7 +159,7 @@ reverse_lookup:
 pinyin_reverse_lookup:
   tags: [ pinyin_lookup ] 
   overwrite_comment: true
-  dictionary: pinyin_simp
+  dictionary: c_42a
   comment_format:
     - "xform/$/〕/"
     - "xform/^/〔/"
@@ -207,8 +207,7 @@ punctuator:
 # 杂项
 recognizer:
   patterns:
-    code: "^[a-z;][a-z;,./]$"
-    assist: "^[a-z;][a-z;,./][a-z;]$"
+    assist: "^[a-z;]{3}$"
     reverse_lookup: "^`[a-z]*'?$"
     punct: "^~([0-9]0?|[A-Za-z]+)$"
 
