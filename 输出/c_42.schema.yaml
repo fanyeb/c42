@@ -30,10 +30,13 @@ switches:
     states: [ 单, 词 ]
     reset: 0
   - name: brevity_code_suggestion
-    states: [ 关, 开 ]
+    states: [ 无, 简 ]
     reset: 0
   - name: brevity_code_suggestion2
-    states: [ 关, 开 ]
+    states: [ 无, 词 ]
+    reset: 0
+  - name: division_suggestion
+    states: [ 无, 拆 ]
     reset: 0
 
 
@@ -69,6 +72,7 @@ engine:
     - simplifier@emoji_suggestion
     - simplifier@phrase_prediction
     - simplifier@brevity_code_suggestion2
+    - simplifier@division_suggestion
     - simplifier@zh_trad
     - reverse_lookup_filter@pinyin_reverse_lookup
     - reverse_lookup_filter@bihua_reverse_lookup
@@ -100,6 +104,15 @@ brevity_code_suggestion:
     - xform/$/〕/
   tags:
     - assist
+
+division_suggestion:
+  opencc_config: division.json
+  option_name: division_suggestion
+  tips: all
+  show_in_comment: true
+  comment_format:
+    - xform/^/〔/
+    - xform/$/〕/
 
 brevity_code_suggestion2:
   opencc_config: brevity2.json
